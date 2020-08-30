@@ -1,0 +1,52 @@
+---- Quiz number: 23 ----
+
+0. Santa Fe
+1. Des Moines
+2. Oklahoma City
+3. Jackson
+4. Frankfort
+5. Albany
+6. Lincoln
+7. Little Rock
+8. Olympia
+9. Phoenix
+10. Hartford
+11. Cheyenne
+12. Trenton
+13. Augusta
+14. Helena
+15. Denver
+16. Austin
+17. Jefferson City
+18. Boise
+19. Topeka
+20. Columbia
+21. Pierre
+22. Charleston
+23. Juneau
+24. Tallahassee
+25. Springfield
+26. Montgomery
+27. Saint Paul
+28. Columbus
+29. Salt Lake City
+30. Bismarck
+31. Boston
+32. Raleigh
+33. Dover
+34. Madison
+35. Salem
+36. Sacramento
+37. Indianapolis
+38. Annapolis
+39. Providence
+40. Richmond
+41. Harrisburg
+42. Concord
+43. Lansing
+44. Honolulu
+45. Nashville
+46. Baton Rouge
+47. Atlanta
+48. Carson City
+49. Montpelier

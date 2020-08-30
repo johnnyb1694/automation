@@ -1,0 +1,52 @@
+---- Quiz number: 17 ----
+
+0. Salem
+1. Lincoln
+2. Jefferson City
+3. Little Rock
+4. Tallahassee
+5. Madison
+6. Denver
+7. Boise
+8. Dover
+9. Boston
+10. Frankfort
+11. Nashville
+12. Montpelier
+13. Salt Lake City
+14. Richmond
+15. Helena
+16. Montgomery
+17. Topeka
+18. Trenton
+19. Albany
+20. Jackson
+21. Austin
+22. Hartford
+23. Oklahoma City
+24. Bismarck
+25. Columbia
+26. Springfield
+27. Harrisburg
+28. Baton Rouge
+29. Columbus
+30. Raleigh
+31. Des Moines
+32. Olympia
+33. Phoenix
+34. Augusta
+35. Concord
+36. Pierre
+37. Providence
+38. Indianapolis
+39. Honolulu
+40. Carson City
+41. Saint Paul
+42. Charleston
+43. Sacramento
+44. Lansing
+45. Juneau
+46. Santa Fe
+47. Atlanta
+48. Annapolis
+49. Cheyenne

@@ -1,0 +1,52 @@
+---- Quiz number: 21 ----
+
+0. Frankfort
+1. Columbus
+2. Trenton
+3. Carson City
+4. Salem
+5. Harrisburg
+6. Phoenix
+7. Sacramento
+8. Olympia
+9. Montpelier
+10. Nashville
+11. Bismarck
+12. Helena
+13. Des Moines
+14. Austin
+15. Honolulu
+16. Denver
+17. Jefferson City
+18. Lincoln
+19. Columbia
+20. Augusta
+21. Santa Fe
+22. Raleigh
+23. Juneau
+24. Indianapolis
+25. Annapolis
+26. Cheyenne
+27. Baton Rouge
+28. Atlanta
+29. Charleston
+30. Tallahassee
+31. Topeka
+32. Richmond
+33. Concord
+34. Albany
+35. Hartford
+36. Montgomery
+37. Jackson
+38. Boston
+39. Boise
+40. Dover
+41. Springfield
+42. Saint Paul
+43. Salt Lake City
+44. Pierre
+45. Providence
+46. Little Rock
+47. Oklahoma City
+48. Madison
+49. Lansing

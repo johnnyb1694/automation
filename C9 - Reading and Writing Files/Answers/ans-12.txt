@@ -1,0 +1,52 @@
+---- Quiz number: 12 ----
+
+0. Annapolis
+1. Topeka
+2. Olympia
+3. Austin
+4. Oklahoma City
+5. Cheyenne
+6. Carson City
+7. Helena
+8. Columbus
+9. Honolulu
+10. Concord
+11. Little Rock
+12. Indianapolis
+13. Albany
+14. Lansing
+15. Columbia
+16. Boston
+17. Lincoln
+18. Tallahassee
+19. Springfield
+20. Salt Lake City
+21. Augusta
+22. Salem
+23. Baton Rouge
+24. Richmond
+25. Saint Paul
+26. Nashville
+27. Montpelier
+28. Madison
+29. Trenton
+30. Des Moines
+31. Harrisburg
+32. Dover
+33. Montgomery
+34. Hartford
+35. Phoenix
+36. Boise
+37. Jackson
+38. Providence
+39. Denver
+40. Raleigh
+41. Frankfort
+42. Santa Fe
+43. Atlanta
+44. Bismarck
+45. Pierre
+46. Sacramento
+47. Juneau
+48. Charleston
+49. Jefferson City

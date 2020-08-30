@@ -1,0 +1,50 @@
+1. What are escape characters?
+
+A: An escape character let's you use characters that would otherwise not be permitted in a string (e.g. \' let's you use a single quote)
+
+2. What do the \n and \t escape characters represent?
+
+A: The '\n' special character refers to a new line. The '\t' special character refers to a tab.
+
+3. How can you put a \ backslash character in a string?
+
+A: By adding the 'r' prefix before the quotation marks which delimit the string (e.g. r'Here is a \ symbol')
+
+4. The string value "Howl's Moving Castle" is a valid string. Why isn’t it a problem that the single quote character in the word Howl's isn’t escaped?
+
+A: Because Python can deal with single quotation marks if the string is delimited by double quotation marks (and vice versa)
+
+5. If you don’t want to put \n in your string, how can you write a string with newlines in it?
+
+6. What do the following expressions evaluate to?
+
+'Hello, world!'[1]
+'Hello, world!'[0:5]
+'Hello, world!'[:5]
+'Hello, world!'[3:]
+
+A: In turn, 'e', 'Hello', 'Hello', 'lo, world!'
+
+7. What do the following expressions evaluate to?
+
+'Hello'.upper()
+'Hello'.upper().isupper()
+'Hello'.upper().lower()
+
+A: In turn, 'HELLO', 'TRUE', 'hello'
+
+8. What do the following expressions evaluate to?
+
+'Remember, remember, the fifth of November.'.split()
+'-'.join('There can be only one.'.split())
+
+A: Respectively, ['Remember,', 'remember,', 'the', 'fifth', 'of', 'November.']
+and '-'.join(['There', 'can', 'be', 'only', 'one.']) = 'There-can-be-only-one.'
+
+9. What string methods can you use to right-justify, left-justify, and center a string?
+
+A: Respectively 'rjust()', 'ljust()' and 'centerjust()'
+
+10. How can you trim whitespace characters from the beginning or end of a string?
+
+A: By using the suite of 'strip()' methods

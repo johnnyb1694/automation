@@ -1,0 +1,130 @@
+1. What is the function that creates Regex objects?
+
+A: The 'compile()' method from the 're' package.
+
+2. Why are raw strings often used when creating Regex objects?
+
+A: Because raw strings do not require escape characters (i.e. characters which would o/w not be permitted in a string).
+
+3. What does the search() method return?
+
+A: The search method returns a 'Match' object.
+
+4. How do you get the actual strings that match the pattern from a Match object?
+
+A: You have to use the 'group()' method (by applying it to a 'Match' object) from the 'Match' class.
+
+5. In the regex created from r'(\d\d\d)-(\d\d\d-\d\d\d\d)', what does group 0 cover? Group 1? Group 2?
+
+A: Group 1 refers to the first three digits in the number string. Group 2 refers to the final 7 digits in the string.
+   Group 0 refers to the entire match, discounting the grouping present within the regular expression.
+
+6. Parentheses and periods have specific meanings in regular expression syntax. How would you specify that you want a regex to match actual parentheses and period characters?
+
+A: You can 'escape' these special characters with a backslash.
+
+7. The findall() method returns a list of strings or a list of tuples of strings. What makes it return one or the other?
+
+A: The difference in this situation depends on whether you apply grouping to the regular expression or not:
+   - If no grouping is applied, then a list of strings representing matched pieces of text is returned
+   - If grouping *is* applied, then a list of tuples is returned where the constituents of each tuple represent found matches
+
+8. What does the | character signify in regular expressions?
+
+A: This character is called a 'pipe'. It signifies an 'or' operator in the world of regular expressions (e.g. a|b matches either a or b in a given string)
+
+9. What two things does the ? character signify in regular expressions?
+
+A: The '?' character has two meanings. The first, and more common meaning, is when we want to optionally match the group preceding '?'.
+   The second meaning relates to matching groups with bounds - so {x,y}? means return the shortest match
+
+10. What is the difference between the + and * characters in regular expressions?
+
+A: The former '+' indicates *one* or more of the preceding group whereas '*' indicates *zero* or more of the preceding group.
+
+11. What is the difference between {3} and {3,5} in regular expressions?
+
+A: The former indicates that a given string must match precisely 3 occurrences of the preceding group whereas the latter indicates 3 to 5 occurrences.
+
+12. What do the \d, \w, and \s shorthand character classes signify in regular expressions?
+
+A: Single digits between 0 and 9, alphabetical / numeric / underscore characters and white space / tab / new line clauses respectively.
+
+13. What do the \D, \W, and \S shorthand character classes signify in regular expressions?
+
+A: These are the anti-versions of the above.
+
+14. What is the difference between .* and .*??
+
+A: The former searches for any character (except newline characters) followed by zero or more characters.
+   The latter however uses a '?' quantifier to communicate that we are seeking a non-greedy match.
+
+15. What is the character class syntax to match all numbers and lowercase letters?
+
+A: [0-9a-z]
+
+16. How do you make a regular expression case-insensitive?
+
+A: You add the 're.I' argument to the 're.compile()' method.
+
+17. What does the . character normally match? What does it match if re.DOTALL is passed as the second argument to re.compile()?
+
+A: This it the wildcard character. It matches everything but new lines. If 're.DOTALL' is passed as a second argument
+   then everything gets matched as well as the new lines.
+
+18. If numRegex = re.compile(r'\d+'), what will numRegex.sub('X', '12 drummers, 11 pipers, five rings, 3 hens') return?
+
+A: It returns: 'X drummers, X pipers, five rings, X hens'
+
+19. What does passing re.VERBOSE as the second argument to re.compile() allow you to do?
+
+A: It allows you to separate a complicated regex into multiple lines (however you must make sure to use triple quotes to delineate the regex string input).
+
+20. How would you write a regex that matches a number with commas for every three digits? It must match the following:
+
+'42'
+'1,234'
+'6,368,745'
+but not the following:
+
+'12,34,567' (which has only two digits between the commas)
+'1234' (which lacks commas)
+
+A: ^\d{1,3}(\s|,\d{3})
+
+21. How would you write a regex that matches the full name of someone whose last name is Watanabe? You can assume that the first name that comes before it will always be one word that begins with a capital letter. The regex must match the following:
+
+'Haruto Watanabe'
+'Alice Watanabe'
+'RoboCop Watanabe'
+
+but not the following:
+
+'haruto Watanabe' (where the first name is not capitalized)
+'Mr. Watanabe' (where the preceding word has a nonletter character)
+'Watanabe' (which has no first name)
+'Haruto watanabe' (where Watanabe is not capitalized)
+
+A: ^[A-Z][a-z]*\sWatanabe$
+
+22. How would you write a regex that matches a sentence where:
+
+(i) the first word is either Alice, Bob, or Carol;
+(ii) the second word is either eats, pets, or throws;
+(iii) the third word is apples, cats, or baseballs; and
+(iv) the sentence ends with a period? This regex should be case-insensitive.
+
+It must match the following:
+
+'Alice eats apples.'
+'Bob pets cats.'
+'Carol throws baseballs.'
+'Alice throws Apples.'
+'BOB EATS CATS.'
+but not the following:
+
+'RoboCop eats apples.'
+'ALICE THROWS FOOTBALLS.'
+'Carol eats 7 cats.'
+
+A: (Alice|Bob|Carol)\s(eats|pets|throws)\s(apples|cats|baseballs)\.$

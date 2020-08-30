@@ -1,0 +1,15 @@
+1. What is the difference between shutil.copy() and shutil.copytree()?
+
+A: The former method copies a single file. The latter method will copy an entire folder and every containing folder and file.
+
+2. What function is used to rename files?
+
+A: The 'move()' function from the 'shutil' module allows you to effectively rename files.
+
+3. What is the difference between the delete functions in the send2trash and shutil modules?
+
+A: In the former, items are moved to the 'Trash' folder as opposed to being permanently deleted from the hard drive.
+
+4. ZipFile objects have a close() method just like File objects’ close() method. What ZipFile method is equivalent to File objects’ open() method?
+
+A: The 'ZipFile()' method is equivalent where the extra parameter is given the value 'w' to symbolise 'write mode'.

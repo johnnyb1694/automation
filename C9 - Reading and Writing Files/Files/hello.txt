@@ -1,0 +1,8 @@
+Here is a sample
+file
+in which
+I have encoded the word
+hello
+!
+Yes that's right.
+hello!

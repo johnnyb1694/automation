@@ -1,0 +1,52 @@
+---- Quiz number: 7 ----
+
+0. Honolulu
+1. Atlanta
+2. Denver
+3. Hartford
+4. Bismarck
+5. Juneau
+6. Tallahassee
+7. Des Moines
+8. Charleston
+9. Richmond
+10. Springfield
+11. Boise
+12. Montpelier
+13. Olympia
+14. Harrisburg
+15. Frankfort
+16. Boston
+17. Oklahoma City
+18. Montgomery
+19. Sacramento
+20. Albany
+21. Phoenix
+22. Carson City
+23. Augusta
+24. Saint Paul
+25. Concord
+26. Trenton
+27. Dover
+28. Jefferson City
+29. Austin
+30. Salem
+31. Jackson
+32. Providence
+33. Cheyenne
+34. Helena
+35. Madison
+36. Topeka
+37. Baton Rouge
+38. Columbus
+39. Annapolis
+40. Santa Fe
+41. Lansing
+42. Columbia
+43. Lincoln
+44. Indianapolis
+45. Little Rock
+46. Pierre
+47. Raleigh
+48. Nashville
+49. Salt Lake City

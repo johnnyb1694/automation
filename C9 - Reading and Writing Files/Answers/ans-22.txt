@@ -1,0 +1,52 @@
+---- Quiz number: 22 ----
+
+0. Olympia
+1. Madison
+2. Columbus
+3. Santa Fe
+4. Nashville
+5. Frankfort
+6. Topeka
+7. Austin
+8. Charleston
+9. Trenton
+10. Sacramento
+11. Little Rock
+12. Jefferson City
+13. Saint Paul
+14. Des Moines
+15. Atlanta
+16. Columbia
+17. Providence
+18. Raleigh
+19. Pierre
+20. Lincoln
+21. Cheyenne
+22. Juneau
+23. Indianapolis
+24. Montgomery
+25. Dover
+26. Boise
+27. Augusta
+28. Oklahoma City
+29. Phoenix
+30. Honolulu
+31. Tallahassee
+32. Bismarck
+33. Hartford
+34. Richmond
+35. Springfield
+36. Albany
+37. Salt Lake City
+38. Concord
+39. Boston
+40. Denver
+41. Annapolis
+42. Lansing
+43. Carson City
+44. Salem
+45. Montpelier
+46. Helena
+47. Jackson
+48. Baton Rouge
+49. Harrisburg
